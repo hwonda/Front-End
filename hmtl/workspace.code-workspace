@@ -1,0 +1,20 @@
+{
+	"folders": [
+		{
+			"path": "../../covid-19"
+		},
+		{
+			"path": "../../javascript"
+		},
+		{
+			"path": "../../web_test"
+		},
+		{
+			"path": ".."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "Front-End",
+		"liveServer.settings.port": 5501
+	}
+}
