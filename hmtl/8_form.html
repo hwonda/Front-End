@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+    <!-- 기본형 <form></form>
+        <form [속성="속성값"]>여러 폼 요소</form>
+        폼에 입력한 사용자 정보는 ASP,PHP,JSP 같은 서퍼 프로그래밍을 이용해 처리함.
+    -->
+    <form action="register.php"><p>선택창 만들기</p></form>
+        <fieldset>      <!-- fieldset : 폼 요소를 그룹화. legend와 같이 쓰면 깔끔-->
+            <b>선택1</b>
+        </fieldset>
+        <fieldset>
+            <legend>선택2</legend>
+        </fieldset>
+        <fieldset>
+            <label>아이디: <input type="text"></label>      
+            <!--label, input을 이용해 레이블을 붙일 수 있다.-->
+            <label for="password">패스워드 : </label>
+            <input type="text" id="password">
+            <!-- 폼 요소와 레이블을 연결할 수 있다.-->
+        </fieldset>
+</body>
+</html>
+
+<!-- <form>태그의 속성
+1. method : 사용자가 입력한 내용을 서버 프로그램으로 어떻게 넘겨줄 것인지 지정. get/post
+2. name : 자바스크립트로 폼을 제어할 때 사용할 폼의 이름 지정.
+3. action : <form>태그 안의 내용을 처리해 줄 서버 프로그램을 지정.
+4. target : action 속성에서 지정한 스크립트 파일을 현재 창이 아닌 다른 위치에서 열도록 함.
+-->

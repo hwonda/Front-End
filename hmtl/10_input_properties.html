@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+    <label for="user_id">id :</label>
+    <!--자동으로 입력커서를 갖다 놓는 autofocus-->
+    <input type="text" autofocus>
+
+    <label for="user_pw">pw :</label>
+    <!--힌트를 표시하는 placeholder-->
+    <input type="password" id="user_pw" placeholder="특수문자를 포함한 8자리 이상" size="22"> <br>
+
+    <label>주문내용</label>
+    <!--읽기 전용 필드 readonly-->
+    <input type="text" value="감귤 3kg" readonly><br>
+
+    <label>핸드폰 번호 :</label>
+    <!--필수입력필드 required-->
+    <input type="phone" id="user_phone" required><br>
+    
+    <label for="memo">메모</label>
+    <!--여러줄 입력하는 텍스트 영역 textarea-->
+    <textarea id="memo" clos="40" rows="5"></textarea>
+</body>
+</html>
