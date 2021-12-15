@@ -16,7 +16,7 @@ p   /*타입선택자 - p에 적용*/
     color: rgb(173, 68, 6);
 }
 
-h1,p
+h1,p    /*그룹선택자 - h1,p에 같은 규칙 적용*/
 {
     text-align: center;
 }
