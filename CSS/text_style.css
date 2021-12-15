@@ -1,0 +1,45 @@
+/*
+1. font-family:<글꼴 이름>
+: 글꼴이 없을 경우를 대비해 [<글꼴 이름>, <글꼴 이름>,~]로 적음
+예시) body{ font-family: "고딕", 돋움, 궁서}
+
+2. font-size:<절대크기> <상대크기> <크기> <백분율>
+: 절대크기-브라우저에서 지정, 상대크기-부모요소 글자크기 기준 지정, 크기-브라우저와 상관없이, 백분율-부모크기 기준으로 백분율
+
+3. font-style:normal/italic/oblique
+
+4. font-weigth:normal/bold(굵게)/bloder(원래보다 더 굵게)/ligther(원래보다 더 가늘게)/100~900(100~900사이의 굵기 표현, 100은 가장 가늘게 900은 가장 굵게)
+
+5. 웹 폰트
+@font-face{
+  font-family:<글꼴 이름>;
+  src: <글꼴 파일>[<글꼴 파일>,<글꼴 파일>, ...];
+}
+구글폰트 : fonts.google.com
+*/
+
+/* --------------------------------------------- */
+
+/* 텍스트 관련 스타일
+1. 색상
+color:<색상>
+  : #000000(검은색) ~ #ffffff(흰색)
+  : 명도는 hsl 또는 hsla
+  : 색상은 rgb 또는 rgba
+
+  2. 줄간격
+line-heigth:px/상수/%;
+
+3. 텍스트 줄 표시
+text-decoration:none/underline/overline
+ex) <p style=text-decoration:"none">none</p>
+
+4. 텍스트 그림자효과
+text-shadow:none <가로거리> <세로거리> <번짐정도> <색상>
+
+5. 대소문자 변환
+text-transform:none/capitalize/uppercase/lowercase/full-width
+
+6. 글자간격 조절
+letter-spacing:상수em;
+*/
