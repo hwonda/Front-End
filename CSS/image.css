@@ -1,0 +1,39 @@
+#clip-border{background-color: border-box;}
+#clip-border{background-color: padding;}
+#clip-border{background-color: content-box;}
+ /*
+ border-box: 가장 외곽 테두리까지 적용. 기본값
+ padding: 박스 모델에서 테두리를 뺀 패딩범위까지.
+ content-box: 박스 모델에서 내용(콘텐츠) 부분만 적용
+ */
+
+ /* 배경이미지 넣기
+ background-image: url('이미지파일 경로');
+ */
+
+/* 배경이미지 위치 조절
+background-position: <수평 위치> <수직 위치>;
+수평 위치: left center right 백분율 길이값
+수직 위치: top center bottom 백분율 길이값
+*/
+
+/* 배경이미지 적용 범위 조절
+content-box: 내용부분에만 배경이미지 표시
+padding-box: 박스모델~패딩까지 배경이미지 표시
+border-box: 테두리까지 배경이미지 표시
+*/
+
+/* 배경이미지 고정
+scroll: 화면을 스크롤하면 배경이미지도 스크롤됨. 기본값
+fixed: 스크롤하면 이미지는 고정, 내용만 스크롤.
+*/
+
+/* background 속성*/
+body{
+    background-image: url('images/bg4.png');
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    background-attachment: fixed;
+}
+
+background: url('images/bg4.png') no-repeat center bottom fixed;
