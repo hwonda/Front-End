@@ -28,12 +28,20 @@ scroll: 화면을 스크롤하면 배경이미지도 스크롤됨. 기본값
 fixed: 스크롤하면 이미지는 고정, 내용만 스크롤.
 */
 
-/* background 속성*/
 body{
     background-image: url('images/bg4.png');
     background-repeat: no-repeat;
     background-position: center bottom;
     background-attachment: fixed;
 }
-
+/* background 속성- 위 코드를 한줄로 변환 가능
 background: url('images/bg4.png') no-repeat center bottom fixed;
+*/
+
+/* 배경이미지 크기 조절
+auto: 원래 배경 이미지 크기만큼 표시. 기본값
+contain: 요소 안에 배경 이미지가 다 들어오도록 이미지 확대, 축소
+cover: 배경이미지 요소를 모두 덮도록 이미지 확대, 축소
+<크기>: 이미지의 너비와 높이 지정. 값이 하나면 너빗값으로 인식, 너비값에 맞춰 높이 자동 계산
+<백분율>: 배경이미지가 들어갈 요소 크기를 기준으로 백분율. 그 크기에 맞도록 배경이미지 확대, 축소
+*/
