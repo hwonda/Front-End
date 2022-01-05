@@ -15,3 +15,13 @@
 
         npx: 실행할 때마다 새로 깔아야 함. 최신버젼을 쓸 수 있지만 번거로움
         npm: 한번 깔면 쭉 사용
+
+5. 샘플 웹앱 실행
+   
+        npm run start
+        
+    : browser가 자동으로 뜸.<br>
+
+                  Local:            http://localhost:3000
+                On Your Network:  http://192.168.1.6:3000
+    : 서버 구축
